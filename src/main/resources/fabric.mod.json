@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "id": "wand-of-sparking",
+    "version": "${version}",
+    "name": "Wand of Sparking",
+    "description": "A casting weapon that is used to shoot sparking.",
+    "authors": [
+        {
+            "name": "CookedSeafood",
+            "contact": {
+                "homepage": "https://github.com/CookedSeafood"
+            }
+        }
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/wand-of-sparking",
+        "sources": "https://github.com/CookedSeafood/wand-of-sparking"
+    },
+    "license": "GNU-GPL-3.0",
+    "icon": "assets/wand-of-sparking/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.cookedseafood.wandofsparking.WandOfSparking"
+        ]
+    },
+    "mixins": [
+        "wand-of-sparking.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.14",
+        "minecraft": "~1.21.5",
+        "java": ">=21",
+        "fabric-api": "*",
+        "candy-wrapper": ">=0.7.5",
+        "general-custom-data": ">=0.1.6",
+        "pentamana": ">=0.8.2"
+    },
+    "suggests": {
+        "another-mod": "*"
+    },
+    "accessWidener": "wand-of-sparking.accesswidener"
+}
